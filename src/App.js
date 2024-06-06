@@ -9,7 +9,11 @@ function App() {
     <>
       <Header title="Linked List Visualizer"/>  
 
+      <br/><br/><br/><br/>
+
       <Visualizer/>  
+
+      <br/><br/><br/><br/>
     
       <Footer/>
     </>

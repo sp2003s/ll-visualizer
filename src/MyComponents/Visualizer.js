@@ -14,7 +14,6 @@ const Visualizer = () => {
 
   return (
     <div>
-      <h2>Single Linked List Visualizer</h2>
       <input 
         type="text" 
         value={value} 
@@ -22,11 +21,17 @@ const Visualizer = () => {
         placeholder="Enter a value" 
       />
       <button onClick={addElement}>Add</button>
-      <div className="linked-list">
+
+        <br /><br /><br />
+
+      <div className="linked-list d-flex justify-content-center">
         {elements.map((el, index) => (
           <div key={index} className="node">
-            {el}
-            {index < elements.length - 1 && <span className="arrow">→</span>}
+            <span className='nodeValue'>
+                {el}
+                {index < elements.length - 1}
+            </span>  
+            <span className="arrow">→</span>
           </div>
         ))}
       </div>
