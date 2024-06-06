@@ -12,3 +12,25 @@ body{
 .footer > div > div > img{
   width: 30px;
 }
+
+/* App.css */
+.linked-list {
+  display: flex;
+  align-items: center;
+}
+
+.node {
+  background-color: #f8f9fa;
+  color: black;
+  border: 1px solid #343a40;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  margin-left: 10px;
+  margin-right: 10px;
+}
