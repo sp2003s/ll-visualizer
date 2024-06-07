@@ -1,5 +1,5 @@
 body{
-  background-color: rgba(8, 9, 32, 0.806);
+  background-color: rgba(1, 14, 8, 0.822);
   color: white;
   text-align: center;
 }
@@ -10,7 +10,7 @@ body{
 }
 
 .footer > div > div > a > img{
-  width: 30px;
+  width: 35px;
 }
 
 .linked-list {
@@ -40,4 +40,32 @@ body{
 .arrow {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.valueInput{
+  padding: 9px;
+  width: 200px;
+  border-radius: 18px;
+  margin: 0 13px;
+  background-color: #0000005e;
+  color: white;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.397);
+  border: none;
+}
+.addButton{
+  padding: 9px;
+  width: 70px;
+  border-radius: 18px;
+  margin: 0 13px;
+  border: none;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.317);
+  font-weight: 550;
+  font-size: 1.1em;
+  color: black;
+  background-color: white;
+  transition: background-color 0.5s;
+}
+
+.addButton:hover{
+  background-color: rgb(74, 222, 34);
 }
