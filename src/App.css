@@ -9,7 +9,7 @@ body{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.footer > div > div > img{
+.footer > div > div > a > img{
   width: 30px;
 }
 
