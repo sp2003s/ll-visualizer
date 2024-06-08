@@ -28,17 +28,45 @@ body{
   background-color: #f8f9fa;
   color: black;
   font-size: 1.2em;
-  font-weight: 550;
   border: 1px solid #343a40;
   padding: 11px;
-  width: 210px;
+  width: 130px;
   margin: 5px;
   border-radius: 5px;
   align-items: center;
 }
 
+.valueText{
+  font-size: 1.21em;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2px 39px;
+}
+
+.deleteNode{
+  transition: background-color 0.4s, color 0.4s;
+}
+.deleteNode:hover{
+  background-color: rgba(175, 0, 0, 0.852);
+  color: white;
+}
+
+.modifyValue{
+  transition: background-color 0.4s, color 0.4s;
+}
+.modifyValue:hover{
+  background-color: rgba(15, 0, 175, 0.852);
+  color: white;
+}
+
 .nodeValue > button{
   margin: 6px;
+  background-color: rgba(0, 0, 0, 0.405);
+  color: rgb(0, 0, 0);
+  font-size: 1.16em;
+  border-radius: 5px;
+  width: 40px;
+  border: 2px solid black;
 }
 
 .arrow {
@@ -48,17 +76,17 @@ body{
 
 .valueInput{
   padding: 9px;
-  width: 200px;
-  border-radius: 18px;
+  width: 310px;
+  border-radius: 20px;
   margin: 0 13px;
   background-color: #0000005e;
   color: white;
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.397);
-  border: none;
+  border: 1px solid white;
 }
-.addButton{
+.addButton, .insertHeadButton{
   padding: 9px;
-  width: 70px;
+  width: 140px;
   border-radius: 18px;
   margin: 0 13px;
   border: none;
@@ -72,4 +100,20 @@ body{
 
 .addButton:hover{
   background-color: rgb(74, 222, 34);
+}
+.insertHeadButton:hover{
+  background-color: rgb(74, 222, 34);
+}
+
+.staticHead, .nullNode{
+  text-align: center;
+  background-color: #f8f9fa;
+  color: black;
+  font-size: 1.2em;
+  border: 1px solid #343a40;
+  padding: 11px;
+  width: 130px;
+  margin: 5px;
+  border-radius: 5px;
+  align-items: center;
 }
