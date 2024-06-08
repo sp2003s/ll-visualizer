@@ -34,7 +34,10 @@ const Visualizer = () => {
         {elements.map((el, index) => (
           <div key={index} className="node">
             <span className='nodeValue'>
-              {el}
+              <b>{el}</b>
+              <br />
+              <button>Modify</button>
+              <button>Delete</button>
             </span>  
             {index < elements.length - 1 && <span className="arrow">→</span>}
           </div>

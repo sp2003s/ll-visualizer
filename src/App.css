@@ -27,14 +27,18 @@ body{
   text-align: center;
   background-color: #f8f9fa;
   color: black;
-  font-size: 1.25em;
+  font-size: 1.2em;
   font-weight: 550;
   border: 1px solid #343a40;
   padding: 11px;
-  width: 80px;
+  width: 210px;
   margin: 5px;
   border-radius: 5px;
   align-items: center;
+}
+
+.nodeValue > button{
+  margin: 6px;
 }
 
 .arrow {
