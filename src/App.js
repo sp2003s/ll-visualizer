@@ -6,21 +6,17 @@ import Visualizer from './MyComponents/Visualizer';
 function App() {
   return (
 
-    <>
-      <Header title="Linked List Visualizer"/>  
-
-      <hr />
-      <br/><br/><br/>
-
-      <Visualizer/>  
-
-      <br/><br/><br/><br/>
-
-      <hr />
-    
+    <div className="app-container">
+      <Header title="Singly Linked List Visualizer"/>  
+      <div className="content">
+        <hr />
+        <br/><br/><br/>
+        <Visualizer/>
+      </div>
       <Footer/>
-    </>
 
+      <br />
+    </div>
 
   );
 }

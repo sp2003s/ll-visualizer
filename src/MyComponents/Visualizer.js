@@ -52,7 +52,9 @@ const Visualizer = () => {
       <button onClick={addElement} className='addButton'>Insert At Tail</button>
       <button onClick={insertAtHead} className='insertHeadButton'>Insert At Head</button>
       
-      <br /><br /><br /><br /><br />
+      <br /><br /><br />
+      <p style={ {fontSize: '1.3em'}}>Linked List:</p>
+      <br />
 
       <div className="linked-list d-flex justify-content-center align-items-center">
         <div className="staticHead">Head</div>

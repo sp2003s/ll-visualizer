@@ -1,5 +1,5 @@
 body{
-  background-color: rgba(1, 14, 8, 0.822);
+  background-color: rgba(3, 19, 5, 0.832);
   color: white;
   text-align: center;
 }
@@ -34,6 +34,7 @@ body{
   margin: 5px;
   border-radius: 5px;
   align-items: center;
+  box-shadow: 3px 3px 3px black;
 }
 
 .valueText{
@@ -75,9 +76,9 @@ body{
 }
 
 .valueInput{
-  padding: 9px;
+  padding: 12px;
   width: 310px;
-  border-radius: 20px;
+  border-radius: 30px;
   margin: 0 13px;
   background-color: #0000005e;
   color: white;
@@ -87,7 +88,7 @@ body{
 .addButton, .insertHeadButton{
   padding: 9px;
   width: 140px;
-  border-radius: 18px;
+  border-radius: 30px;
   margin: 0 13px;
   border: none;
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.317);
@@ -99,15 +100,15 @@ body{
 }
 
 .addButton:hover{
-  background-color: rgb(74, 222, 34);
+  background-color: rgb(34, 222, 68);
 }
 .insertHeadButton:hover{
-  background-color: rgb(74, 222, 34);
+  background-color: rgb(34, 222, 68);
 }
 
 .staticHead, .nullNode{
   text-align: center;
-  background-color: #f8f9fa;
+  background-color: #c8e4ff;
   color: black;
   font-size: 1.2em;
   border: 1px solid #343a40;
@@ -116,4 +117,37 @@ body{
   margin: 5px;
   border-radius: 5px;
   align-items: center;
+  box-shadow: 3px 3px 3px black;
+}
+
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.content {
+  flex: 1; 
+  padding: 0px;
+}
+
+.footer {
+  color: white; 
+  padding: px;
+  text-align: center;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.visualizer-container {
+  padding-bottom: 20px;
 }
