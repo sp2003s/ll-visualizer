@@ -12,7 +12,7 @@ Static Head and NULL: The visualizer shows a static "Head" at the start and "NUL
 ## Installation
 
 ### Clone the repository:
-git clone https://github.com/your-username/linked-list-visualizer.git
+git clone https://github.com/sp2003s/linked-list-visualizer.git
 cd linked-list-visualizer
 
 ### Install dependencies:
