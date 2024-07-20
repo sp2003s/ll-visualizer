@@ -17,6 +17,7 @@ const Visualizer = () => {
   };
 
   const insertAtHead = () => {
+
     if (value.trim() === '') {
       return;
     }
